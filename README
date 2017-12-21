@@ -1,0 +1,37 @@
+ _____ ___ __  __   _   
+|_   _| __|  \/  | /_\  
+  | | | _|| |\/| |/ _ \ 
+  |_| |___|_|  |_/_/ \_\
+                        
+
+Nume   : Maftei Stefan - Radu
+Grupa  : 324CD
+Materie: AA
+
+Arhiva contine:
+	- raportul "Probleme asociate procesarii sirurilor de caractere" (.pdf);
+	- src (sursele pentru algoritmi, cat si generatorul de teste; realizat
+in Java);
+	- fisier Makefile;
+	- fisier README.
+
+
+=== Testarea ===
+
+1. In terminal executati comanda 'make' pentru build;
+2. Executati apoi comanda 'make run' pentru executie;
+Executia va dura circa 3-4 min din cauza algoritmilor cu complexitate mai mare.
+3. Dupa executie intrati in folder-ul 'output/' unde veti avea doua fisiere:
+lpsOutput.out si lcsOutput.out
+(lps -> Cea mai lunga subsecventa palindromica;
+lcs -> Cel mai lung subsir comun)
+
+Structura unui fisier output este urmatoarea:
+-> nr. test;
+-> String inputs;
+-> Nume algoritm + rezultat;
+-> Timp algoritm;
+(Numele algoritmului si timpul sunt puse impreuna, mereu timpul afisat va fi ptr
+algoritmul specificat deasupra).
+
+4. Pentru a sterge fisierele si folder-ul create executati comanda "make clean".
